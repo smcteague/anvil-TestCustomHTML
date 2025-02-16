@@ -1,5 +1,14 @@
 components:
-- layout_properties: {slot: default}
+- components:
+  - layout_properties: {grid_position: 'MSJIYO,LIIWYQ'}
+    name: text_1
+    properties: {text: Form 2}
+    type: form:dep_gqlhr7sei7ys7:_Components.Text
+  - layout_properties: {grid_position: 'VXZLZP,ZXASQL'}
+    name: toggle_icon_button_1
+    properties: {}
+    type: form:dep_gqlhr7sei7ys7:_Components.ToggleIconButton
+  layout_properties: {slot: default}
   name: content_panel
   properties: {}
   type: ColumnPanel
