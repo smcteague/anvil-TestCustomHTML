@@ -1,47 +1,6 @@
 allow_embedding: false
 correct_dependency_ids: {dep_gqlhr7sei7ys7: 4UK6WHQ6UX7AKELK}
-db_schema:
-  users:
-    client: none
-    columns:
-    - admin_ui: {order: 0, width: 200}
-      name: email
-      type: string
-    - admin_ui: {order: 1, width: 200}
-      name: enabled
-      type: bool
-    - admin_ui: {order: 2, width: 200}
-      name: last_login
-      type: datetime
-    - admin_ui: {order: 3, width: 200}
-      name: password_hash
-      type: string
-    - admin_ui: {order: 4, width: 200}
-      name: n_password_failures
-      type: number
-    - admin_ui: {order: 5, width: 200}
-      name: confirmed_email
-      type: bool
-    - admin_ui: {order: 6, width: 200}
-      name: signed_up
-      type: datetime
-    - admin_ui: {order: 7, width: 200}
-      name: subscription
-      type: string
-    - admin_ui: {order: 8, width: 200}
-      name: cancel_subscription_at_period_end
-      type: bool
-    - admin_ui: {order: 9, width: 200}
-      name: stripe_id
-      type: string
-    - admin_ui: {order: 10, width: 200}
-      name: remembered_logins
-      type: simpleObject
-    - admin_ui: {order: -1, width: 200}
-      name: name
-      type: string
-    server: full
-    title: Users
+db_schema: {}
 dependencies:
 - dep_id: dep_gqlhr7sei7ys7
   resolution_hints: {app_id: 4UK6WHQ6UX7AKELK, name: Material 3 Theme 2.0, package_name: Material_3_Theme_2_0}
