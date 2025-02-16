@@ -1,7 +1,7 @@
 from ._anvil_designer import Form1Template
 from anvil import *
 import anvil.server
-import anvil.users
+# import anvil.users
 
 
 class Form1(Form1Template):
