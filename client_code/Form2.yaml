@@ -24,5 +24,5 @@ container:
   properties: {html: '@theme:standard-page.html'}
   type: HtmlTemplate
 custom_component: true
-is_package: true
+is_package: false
 slots: {}
